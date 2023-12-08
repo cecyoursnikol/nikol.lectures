@@ -1,0 +1,29 @@
+.emploee-form{
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+.emploee-table{
+    border-style: solid ;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+}
+
+body>table{
+    width: 80%;
+}   
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

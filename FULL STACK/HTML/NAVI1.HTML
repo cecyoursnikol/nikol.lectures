@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <style>
+        .navbar {
+            background-color: crimson;
+            border-radius: 70px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 8px 5px;
+        }
+
+        .navbar li a {
+            padding: 5px 15px;
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+
+        .navbar li a:hover {
+            color: chartreuse;
+        }
+
+        .search {
+            float: right;
+            padding: 10px 30px;
+            color: bisque;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 70px;
+            padding: 2px 8px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</li></a>
+                <li><a href="#">Service</li></a>
+                <li><a href="#">about</li></a>
+                <li><a href="#">Contact</li></a>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search with joy">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <h1>
+        <center>JavaScript CURD System</center>
+    </h1>
+    <hr>
+    <div class="emploee-form">
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <div>
+                <label>For Name*</label><label class="validation-error hide" id="fullNameValidationError">This Field is
+                    required.</label>
+                <input type="text" name="fullName" id="fullName">
+            </div>
+            <div>
+                <label>Email Id</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label">Salary</label>
+                <input type="text" name="salary" id="salary">
+            </div>
+            <DIV>
+                <label>City</label>
+                <input type="text" name="city" id="city">
+            </DIV>
+            <div class="form-action-buttons">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="emploee-table">
+        <table class="list" id="emploeeList">
+            <thead>
+                <tr>Full Name</tr>
+                <tr>E-mail</tr>
+                <tr>Salary</tr>
+                <tr>City</tr>
+                <tr>Actions</tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
