@@ -1,48 +1,56 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-	int gender,age;
+	int num, age;
 	
-	printf("Select a Gender\n1.male\n2.Female\nEither any number for other  :");
-	scanf("%d",&gender);
+	printf("press 1 for male \n");
+	printf("press 2 for female\n");
+	printf("press any for other\n");
+	scanf("%d",&num);
 	
-	if(gender==1)
+	if(num==1)
 	{
-		printf("U selected Male \n now enter ur Age :");
+		printf("you are male\n");
+		printf("enter age : ");
+		scanf("%d",&age);
+		
+		if(age>18)
+		{
+			printf("yor are eligiable for vote");
+		}
+		else
+		{
+			printf("your are not eligiable for vote");
+		}
+	}
+	else if(num==2)
+	{
+		printf("you are female\n");
+		printf("enter your age : ");
 		scanf("%d",&age);
 		if(age>18)
 		{
-			printf("U are eligible for Voting");
+			printf("you can VOTE");
 		}
 		else
 		{
-			printf("U are under age");
-		}
-	}
-	else if(gender==2)
-	{
-		printf("U selected Female");
-	    scanf("%d",&age);
-		if(age>15)
-		{
-			printf("U are eligible for Voting");
-		}
-		else
-		{
-			printf("U are under age");
+			printf("you can NOT vote");
 		}
 	}
 	else
 	{
-		printf("U selected other");
-	    scanf("%d",&age);
-		if(age>20)
+		printf("enter your age : ");
+		scanf("%d",&age);
+		if(age>18)
 		{
-			printf("U are eligible for Voting");
+			printf("you can VOTE");
 		}
 		else
 		{
-			printf("U are under age");
+			printf("you can NOT vote");
 		}
 	}
+	
+	
+	return 0;
 }

@@ -4,5 +4,3 @@ int main()
 	printf("Hello Krunal how are u!");
 	return 0;
 }
-
-
