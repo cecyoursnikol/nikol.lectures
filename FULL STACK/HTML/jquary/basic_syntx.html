@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                $(".pr").hide();
+            });
+
+            $(".db").dblclick(function()
+            {
+                $('.db').hide();
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <p class="pr">The demo content</p>
+
+    <p class="pr">This is too but not mutch</p><br>
+    <button class="btn">hide all</button>
+
+    <p class="db">double click on me to hide</p>
+
+    <p class="db">double tap to hide</p>
+
+
+
+
+</body>
+
+</html>
