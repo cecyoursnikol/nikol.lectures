@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .col{
+            height: 100px;
+            width: 150px;
+            border: 2px dotted red;
+            background-color: blue;
+            animation-name: first;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            position: relative;
+            animation-iteration-count: 2;
+        }
+        @keyframes first{
+            from{background-color: blue;}
+            to{background-color: #fff; left: 200px;}
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>CSS Animation</h2> -->
+    <div class="col">
+
+    </div>
+</body>
+</html>
