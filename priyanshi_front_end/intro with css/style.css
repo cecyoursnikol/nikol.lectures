@@ -1,0 +1,37 @@
+*{
+    background-color: aqua;
+    
+}
+
+
+
+.hm{
+    color: red;
+}
+.con{
+    color: blue;
+}
+.ab{
+    color: brown;
+}
+
+#ex{
+    color: rgb(204, 74, 74);
+}
+
+.chain p{
+    background-color: black;
+    color: #fff;
+}
+
+#free p{
+    font-family:monospace;
+}
+
+.pre p{
+    font-size: 2rem;
+}
+
+#paid p{
+    font-size: 2rem;
+}
