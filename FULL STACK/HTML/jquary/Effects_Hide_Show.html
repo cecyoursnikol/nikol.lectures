@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effets</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        h2 {
+            color: blueviolet;
+            font-size: 3rem;
+            font-weight: 800;
+        }
+        .btn{
+            
+            padding-left: 620px;
+            height: 50px;
+            padding-top: 20px;
+            
+            
+            
+        }
+        .forCSS{
+            background-color: rgb(199, 217, 253);
+            border-style: none; 
+            height: 30px;
+            width: 80px;
+            font-size: 15px;
+            color: rgb(61, 30, 30);
+            border-radius: 20px;
+            
+            
+        }
+        .forCSS:hover{
+            background-color: rgb(138, 150, 204);
+            color: #fff;
+            transition: 0.3s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>
+        <center>This Text Magical!</center>
+    </h2>
+    <div class="btn">
+        <button class="hide forCSS">Hide</button>
+        <button class="show forCSS">Show</button>
+    </div>
+
+
+    <script>
+        $(function(){
+            $(".hide").click(function(){
+                $('h2').hide();
+            });
+            $(".show").click(function(){
+                $('h2').show();
+            });
+        });
+    </script>
+</body>
+
+</html>
