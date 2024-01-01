@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <style type="text/css">
-        div {
-            background: red;
+        /* div {
+            background: rgb(224, 133, 133);
             width: 100px;
             height: 100px;
             position: relative;
@@ -18,7 +18,7 @@
             animation-direction: alternate-reverse;
             margin: 2px;
             text-align: center;
-        }
+        } */
 
         @keyframes Shivnya {
             from {
@@ -51,17 +51,35 @@
             background: yellow;
             animation-timing-function: linear;
         }
+
+
+        @keyframes spinner {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #ccc;
+            border-top-color: #1abc9c;
+            border-radius: 50%;
+            animation: spinner 1s linear infinite;
+        }
     </style>
 </head>
 
 <body>
 
-    <div id="div1">ease</div>
+    <!-- <div id="div1">ease</div>
     <div id="div2">linear</div>
     <div></div>
     <div></div>
     <div></div>
-    <div></div>
+    <div></div> -->
+
+    <div class="spinner"></div>
 
 </body>
 

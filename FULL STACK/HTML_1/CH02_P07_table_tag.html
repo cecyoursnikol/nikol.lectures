@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables in HTML</title>
+    <title>HTML Table</title>
     <style>
-        .head{
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
             color: white;
         }
-        .co{
-            color: brown;
+
+        tbody tr:hover {
+            background-color: rgba(100, 100, 100, 0.1);
         }
-        body{
-            background-color: rgb(168, 213, 241);
-        }
-       table, th, td {
-        border: 3px solid rgb(131, 147, 210);
-        padding: 4px;
-        }
-        
+
+       
     </style>
 </head>
+
 <body>
-    <h1 class="head">The empty section of head -----</h1>
-    <center>
-        <table class="co">
+
+    <h2>HTML Table</h2>
+
+    <table>
+        <thead>
             <tr>
                 <th>Name</th>
-                <th>Roll no.</th>
-                <th>Science</th>
-                <th>Maths</th>
-                <th>S.S</th>
-                <th>English</th>
-                <th>Gujarati</th>
-                <th>Hindi</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ram prasad</td>
+                <td>25</td>
+                <td>Surat</td>
             </tr>
             <tr>
-                <td><center>Manav</center></td>
-                <td><center>34</center></td>
-                <td><center>65</center></td>
-                <td><center>39</center></td>
-                <td><center>41</center></td>
-                <td><center>74</center></td>
-                <td><center>67</center></td>
-                <td><center>83</center></td>
+                <td>Smith Jain</td>
+                <td>30</td>
+                <td>ahmedabad</td>
             </tr>
             <tr>
-                <td><center>Piyush</center></td>
-                <td><center>35</center></td>
-                <td><center>49</center></td>
-                <td><center>83</center></td>
-                <td><center>29</center></td>
-                <td><center>71</center></td>
-                <td><center>82</center></td>
-                <td><center>67</center></td>
+                <td>Amit Chanuhan</td>
+                <td>22</td>
+                <td>Vadodara</td>
             </tr>
-            <tr>
-                <td><center>Janvi</center></td>
-                <td><center>36</center></td>
-                <td><center>19</center></td>
-                <td><center>37</center></td>
-                <td><center>64</center></td>
-                <td><center>52</center></td>
-                <td><center>68</center></td>
-                <td><center>52</center></td>
-            </tr>
-            <tr>
-                <td><center>Pooja</center></td>
-                <td><center>37</center></td>
-                <td><center>27</center></td>
-                <td><center>30</center></td>
-                <td><center>83</center></td>
-                <td><center>75</center></td>
-                <td><center>51</center></td>
-                <td><center>84</center></td>
-            </tr>
-        </table>
-    </center>
+        </tbody>
+    </table>
+
 </body>
+
 </html>
