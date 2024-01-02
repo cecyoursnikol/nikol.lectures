@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keydown Event</title>
+</head>
+<body>
+    <h1>THe input Field</h1>
+    <input type="text" placeholder="Press any key" onkeydown="key();">
+    <p id="p"></p>
+
+    <script>
+        function key(){
+            document.getElementById('p').innerHTML= "U Have pressed Keyboard";
+        }
+    </script>
+</body>
+</html>

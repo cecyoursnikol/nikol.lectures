@@ -1,0 +1,25 @@
+*{
+    background-color: aqua;
+}
+
+.heading{
+    color: crimson;
+}
+
+h2{
+    background-color: rgb(207, 212, 248);
+    color: #45524c;
+}
+.element{
+    color: brown;
+}
+
+#unique{
+    color: blueviolet;
+}
+.example{
+    color: forestgreen;
+}
+p{
+    color: rgb(234, 37, 34);
+}

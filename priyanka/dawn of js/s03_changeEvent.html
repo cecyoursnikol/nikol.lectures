@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl</title>
+</head>
+<body>
+    <h1>The Change Event</h1>
+
+    <form>
+        
+        <select id="s" onchange="Change();">
+            <option value="Books">Books</option>
+            <option value="E-books">E-Books</option>
+            <option value="Material">learning Material</option>
+            <option value="lec">Video Lecture</option>
+        </select>
+    </form>
+
+    <h1>This is selected Option </h1>
+    <p id="print"></p>
+
+    <script>
+        function Change(){
+            let p = document.getElementById('s').value;
+            document.getElementById('print').innerHTML=p;
+        }
+    </script>
+</body>
+</html>
