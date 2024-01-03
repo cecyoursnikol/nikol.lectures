@@ -11,7 +11,7 @@ h2{
     color: #45524c;
 }
 .element{
-    color: brown;
+    color: brown;  
 }
 
 #unique{
@@ -23,3 +23,5 @@ h2{
 p{
     color: rgb(234, 37, 34);
 }
+
+/* THis is comments in css */
