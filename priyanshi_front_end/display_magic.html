@@ -7,28 +7,41 @@
     <title>display Show Hide</title>
 
     <style>
-        button{
+
+       
+        #content:hover{
             display: none;
         }
+
+
     </style>
 </head>
 
 <body>
-    <h1>
+    <h1 id="content">
         <Center>This is Magical Test</Center>
     </h1>
-    <center>
-        <button>
+    <!-- <center>
+        <button id="hide" onclick="hide()">
 
             Hide
 
         </button>
-        <button>
+        <button id="show" onclick="show()">
 
             Show
 
         </button>
-    </center>
+    </center> -->
+
+    <!-- <script>
+        function hide(){
+            document.getElementById('content').style.display="none";
+        }
+        function show(){
+            document.getElementById('content').style.display="block";
+        }
+    </script> -->
 </body>
 
 </html>
