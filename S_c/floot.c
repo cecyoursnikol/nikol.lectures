@@ -6,6 +6,6 @@ int main(){
 	printf("Enter any floating number :-");
 	scanf("%f",&point);
 	
-	printf("The value is %.2f",point);
+	printf("The value is %.5f",point);
 	return 0;
 }
