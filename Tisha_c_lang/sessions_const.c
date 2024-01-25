@@ -7,7 +7,7 @@ int main(){
 	
 //	age_of_Tisha = 18;
 
-	PI = 33.33;
+//	PI = 33.33;
 	
 //	printf("Set the age for Tisha :");
 //
