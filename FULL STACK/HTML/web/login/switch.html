@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Switch Price Change</title>
+  <style>
+    /* Add some basic styling for better presentation */
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    #price {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
+  <!-- Include jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+  <h1>Toggle Switch Price Change</h1>
+
+  <!-- Toggle switch -->
+  <label class="switch">
+    <input type="checkbox" id="toggleSwitch">
+    <span class="slider round"></span>
+  </label>
+
+  <!-- Display the price -->
+  <p id="price">Price: $100</p>
+
+  <script>
+    // jQuery code
+    $(document).ready(function() {
+      // Initial price value
+      let price = 100;
+
+      // Event listener for the toggle switch
+      $('#toggleSwitch').change(function() {
+        // Check if the switch is checked (on) or unchecked (off)
+        if ($(this).is(':checked')) {
+          // If the switch is on, double the price
+          price *= 2;
+        } else {
+          // If the switch is off, reset the price to the initial value
+          price = 10
+        }
+
+        // Update the displayed price
+        $('#price').text('Price: $' + price);
+      });
+    });
+  </script>
+
+</body>
+</html>

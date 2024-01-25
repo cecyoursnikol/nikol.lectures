@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <style>
+        .container{
+             margin: 10px;
+             padding: 70px;
+             margin-right: 10px;
+             border: 1px solid black;
+             margin-left: 100px;
+             border-radius: 20px;
+             margin-right: 800px;
+             display:inline-block;
+             background-image: url("img.jpg");
+             color: azure;
+            height: 200px;
+            width: 300px;
+            margin-top: 100px;
+        margin-left: 180px;
+       align-items: center;
+       margin-top: 100px;
+            position: relative;
+       
+        }
+        #username{
+            margin-top: 30px;
+        }
+        #button{
+            background-color: rgb(219, 69, 76);
+            border-radius: 20px;
+            height: 30px;
+            width: 60px;
+            color: white;
+            margin-left: 64px;
+           
+        }
+        #button:hover{
+            background-color: cadetblue;
+            transition: 0.5s;
+            align-items: center;
+            color: white;
+        }
+    
+        
+    </style>
+</head>
+<body>
+
+
+
+    <form>
+
+        <div class="container">
+
+            <h2 style="color: aliceblue; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top: -20px; margin-left: -12px;" > welcome back </h2>
+        <label for="username">username: </label>
+        <input type="text" name="username " placeholder="username" id="username" required>
+<br> <BR>
+        <label for="password">password:</label>
+        <input type="password" name="passwords" placeholder="password" autocomplete="off" id="password" required>
+<br><br>
+        <input type="submit" id="button">
+    </div>
+</form>
+
+<p id="demo">
+
+</p>
+
+    <script>
+        $(document).ready(function(){
+            $("#button").on('click',function(){
+                let username = $('#username').val();
+                let password =$('#password').val();
+              
+                let  predefind = "admin";
+                let  predefinds = "123";
+
+              
+                if(username === predefind && password === predefinds ){
+                    alert("login sucess");
+                }
+                else
+                    {
+                        alert("invalid password");
+
+                    }
+                
+
+            });
+          
+        });
+    </script>
+</body>
+</html>

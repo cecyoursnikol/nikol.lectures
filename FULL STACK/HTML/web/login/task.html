@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        .het1{
+         background-color: rgb(89, 21, 214);
+         border: px solid gray;
+         border-radius: 10px;
+         margin-right: 1350px;
+         text-decoration: none;
+            
+        }
+        .het3{
+         background-color: rgb(76, 38, 243);
+         border: 1px solid gray;
+         border-radius: 10px;
+         margin-right: 1350px;
+         text-decoration: none;   
+        }
+
+        .het5{
+         background-color: rgb(71, 99, 255);
+         border: 1px solid gray;
+         border-radius: 10px;
+         margin-right: 1350px;
+         text-decoration: none;      
+        }
+        .het7{
+         background-color: rgb(48, 79, 218);
+         border: 1px solid gray;
+         border-radius: 10px;
+         margin-right: 1350px;
+         text-decoration: none;
+         
+        }
+        #hp1{
+                background-color: white;
+        }
+    
+        #het11{
+            background-color: red;
+            border: 1px solid red;
+            margin: 100px;
+            height: 100px;
+            width: 100px;
+        }
+        #het12{
+            background-color: rgb(95, 236, 29);
+            border: 1px solid rgb(70, 235, 29);
+            margin: 100px;
+            height: 100px;
+            width: 100px;
+        }
+        #het14{
+            background-color: rgb(78, 14, 255);
+            border: 1px solid rgb(98, 26, 192);
+            margin: 100px;
+            height: 100px;
+            width: 100px;
+        }
+        #het13{
+            background-color: rgb(145, 252, 5);
+            border: 1px solid rgb(180, 221, 32);
+            margin: 100px;
+            height: 100px;
+            width: 100px;
+        }
+       
+    </style>
+    
+</head>
+<body>
+    <div class="het1">
+      <a href="#het11"  id="het2"; style=" text-decoration: none; ">Red</a>  
+</div>
+<br>
+<div class="het3">
+    <a href="#"  id="het4"; style=" text-decoration: none; ">green</a>  
+</div>
+<br>
+<div class="het5">
+    <a href="#"  id="het6"; style=" text-decoration: none; ">blue</a>  
+</div>
+<br>
+<div class="het7">
+    <a href="#"  id="het8"; style=" text-decoration: none;  ">yellow</a>  
+</div>
+<br>
+<div class="hp hp1 hp2 hp3 " id="het11" style="background-color: white;  border: none;">
+<div>
+
+</div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $(".het1").click(function(){
+            $(".hp").css("background-color","red").text("red");
+
+        });
+        
+        $(document).ready(function(){
+            $(".het7").click(function(){
+                $(this).css("background-color","yellow");
+            });
+        });
+        
+        $(document).ready(function(){
+            $(".het3").click(function(){
+                $(this).css("background-color","chartreuse");
+            });
+        });
+        $(document).ready(function(){
+            $(".het1").click(function(){
+                $(this).css("background-color","red");
+            });
+        });
+        $(document).ready(function(){
+            $(".het5").click(function(){
+                $(this).css("background-color","rgb(90, 90, 179)");
+            });
+        });
+        $(document).ready(function(){
+            $(".het7").click(function(){
+                $(".hp1").css("background-color","yellow").text("yellow");
+            });
+        });
+        $(document).ready(function(){
+            $(".het3").click(function(){
+                $(".hp2").css("background-color","chartreuse").text("green");;
+            });
+        });
+        $(document).ready(function(){
+            $(".het5").click(function(){
+                $(".hp3").css("background-color","rgb(90, 90, 179)").text("blue");;
+            });
+        });
+        
+    });
+</script>
+</body>
+</html>

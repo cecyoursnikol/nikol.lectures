@@ -1,0 +1,113 @@
+<svg width="611" height="485" viewBox="0 0 611 485" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<path d="M466 83.5511C529.801 73.4222 581.166 134.3 606.264 92.3596C632.617 48.3217 509.638 -2.76403 546.162 124.508C570.091 207.891 549.735 196.713 542.8 250" stroke="#1D1D1D" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<g filter="url(#filter0_ddd)">
+<rect x="30" y="20" width="438" height="371" rx="8" fill="white"/>
+</g>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="112" y="69.3182">assets</tspan></text>
+<path d="M60 53C60 51.3431 61.3431 50 63 50H69.9477C70.6289 50 71.2898 50.2318 71.8217 50.6574L75.1783 53.3426C75.7102 53.7682 76.3711 54 77.0523 54H89C90.6569 54 92 55.3431 92 57V73C92 74.6569 90.6569 76 89 76H63C61.3431 76 60 74.6569 60 73V53Z" fill="#56CCF2"/>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="112" y="183.718">css</tspan></text>
+<path d="M60 167C60 165.343 61.3431 164 63 164H69.9477C70.6289 164 71.2898 164.232 71.8217 164.657L75.1783 167.343C75.7102 167.768 76.3711 168 77.0523 168H89C90.6569 168 92 169.343 92 171V187C92 188.657 90.6569 190 89 190H63C61.3431 190 60 188.657 60 187V167Z" fill="#56CCF2"/>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="112" y="240.918">js</tspan></text>
+<g filter="url(#filter1_i)">
+<path d="M60 224C60 222.343 61.3431 221 63 221H69.9477C70.6289 221 71.2898 221.232 71.8217 221.657L75.1783 224.343C75.7102 224.768 76.3711 225 77.0523 225H89C90.6569 225 92 226.343 92 228V244C92 245.657 90.6569 247 89 247H63C61.3431 247 60 245.657 60 244V224Z" fill="#56CCF2"/>
+</g>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" letter-spacing="0em"><tspan x="321" y="295.727">Apr 20, 2021 06:36 PM</tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" letter-spacing="0em"><tspan x="321" y="181.727">&#x2014;</tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" letter-spacing="0em"><tspan x="321" y="67.7273">&#x2014;</tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="15" font-weight="500" letter-spacing="0em"><tspan x="112" y="297.254">index.html</tspan></text>
+<g filter="url(#filter2_i)">
+<path d="M67 307C65.3431 307 64 305.657 64 304L64 278C64 276.343 65.3431 275 67 275L87 275C88.6569 275 90 276.343 90 278L90 304C90 305.657 88.6569 307 87 307L67 307Z" fill="#F2F2F2"/>
+</g>
+<text fill="#828282" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" font-weight="600" letter-spacing="0em"><tspan x="70.2715" y="295.727">{ } </tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="112" y="354.318">logo.png</tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" letter-spacing="0em"><tspan x="321" y="352.727">Mar 24, 2021 02:12 PM</tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" letter-spacing="0em"><tspan x="321" y="238.727">&#x2014;</tspan></text>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="13" letter-spacing="0em"><tspan x="321" y="124.727">&#x2014;</tspan></text>
+<path d="M73.3333 348.821C74.3783 348.821 75.2253 347.974 75.2253 346.929C75.2253 345.884 74.3783 345.037 73.3333 345.037C72.2884 345.037 71.4413 345.884 71.4413 346.929C71.4413 347.974 72.2884 348.821 73.3333 348.821Z" fill="#333333"/>
+<path d="M77 337C70.928 337 66 341.928 66 348C66 354.072 70.928 359 77 359C83.072 359 88 354.072 88 348C88 341.928 83.072 337 77 337ZM69.4467 346.944C69.4467 344.803 71.192 343.057 73.3333 343.057C75.4747 343.057 77.22 344.803 77.22 346.944C77.22 349.085 75.4747 350.831 73.3333 350.831C71.192 350.831 69.4467 349.085 69.4467 346.944ZM77.4987 354.791C76.2813 354.791 75.108 354.453 74.0813 353.808L75.0933 352.18C75.812 352.635 76.648 352.869 77.4987 352.869C78.3493 352.869 79.1853 352.635 79.8893 352.18L80.9013 353.808C79.8893 354.453 78.7013 354.791 77.4987 354.791ZM79.0973 347.897V345.976H84.9933V347.897H79.0973Z" fill="#333333"/>
+<text fill="#333333" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="112" y="126.518">about-us</tspan></text>
+<path d="M60 110C60 108.343 61.3431 107 63 107H69.9477C70.6289 107 71.2898 107.232 71.8217 107.657L75.1783 110.343C75.7102 110.768 76.3711 111 77.0523 111H89C90.6569 111 92 112.343 92 114V130C92 131.657 90.6569 133 89 133H63C61.3431 133 60 131.657 60 130V110Z" fill="#56CCF2"/>
+<g filter="url(#filter3_ddd)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M549.713 259C548.704 259 547.744 258.564 547.079 257.805L544.634 255.011C543.24 253.417 540.76 253.417 539.366 255.011L536.921 257.805C536.256 258.564 535.296 259 534.287 259H379C375.686 259 373 261.686 373 265V439C373 442.314 375.686 445 379 445H559C562.314 445 565 442.314 565 439V265C565 261.686 562.314 259 559 259H549.713Z" fill="white"/>
+</g>
+<text fill="#2D9CDB" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" font-weight="500" letter-spacing="0em"><tspan x="419" y="297.091">Upload File</tspan></text>
+<path d="M393 294V297C393 298.105 393.895 299 395 299H405C406.105 299 407 298.105 407 297V294" stroke="#2D9CDB" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M404 289L400 285L396 289" stroke="#2D9CDB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M400 295V285" stroke="#2D9CDB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M395 366C393.895 366 393 366.895 393 368V376C393 377.105 393.895 378 395 378H405C406.105 378 407 377.105 407 376V370C407 368.895 406.105 368 405 368H401.116C400.432 368 399.808 367.612 399.505 367V367C399.202 366.388 398.578 366 397.894 366H395Z" stroke="#1D1D1D" stroke-width="2" stroke-miterlimit="10"/>
+<text fill="#1D1D1D" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" font-weight="500" letter-spacing="0em"><tspan x="419" y="377.091">Empty Project</tspan></text>
+<text fill="#1D1D1D" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" font-weight="500" letter-spacing="0em"><tspan x="419" y="337.091">Show Removed</tspan></text>
+<path d="M407 329H405L404.595 337.1C404.542 338.164 403.663 339 402.598 339H397.402C396.337 339 395.458 338.164 395.405 337.1L395 329H393" stroke="#1D1D1D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+<path d="M397 326L397.121 325.879C397.684 325.316 398.447 325 399.243 325H400.757C401.553 325 402.316 325.316 402.879 325.879L403 326" stroke="#1D1D1D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M395 329H405" stroke="#1D1D1D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+<text fill="#1D1D1D" xml:space="preserve" style="white-space: pre" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol" font-size="14" font-weight="500" letter-spacing="0em"><tspan x="419" y="417.091">Export as ZIP</tspan></text>
+<path d="M393 414V417C393 418.105 393.895 419 395 419H405C406.105 419 407 418.105 407 417V414" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M400 415L400 405" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M404 411L400 415L396 411" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_ddd" x="0" y="0" width="498" height="431" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow" result="effect3_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_i" x="60" y="221" width="32" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<filter id="filter2_i" x="64" y="275" width="26" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<filter id="filter3_ddd" x="343" y="233.815" width="252" height="251.185" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow" result="effect3_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
