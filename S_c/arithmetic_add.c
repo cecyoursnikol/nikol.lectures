@@ -15,6 +15,6 @@ int main(){
 	
 	printf("The result is %d",z);
 	
-	
+		
 	return 0;
 }
