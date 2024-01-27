@@ -14,5 +14,7 @@ int main(){
 	
 	printf("\nThe reminder of x and y is %d",x%y);
 	
+	
+	
 	return 0;
 }
