@@ -1,11 +1,14 @@
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	
-	int i,j;
+	int i,j,n;
 	
+	printf("Eneter any no. :");
+	scanf("%i",&n);	
 	
-	for(i = 1;i <= 5;i++)   //rows
+	for(i = 1;i <= n;i++)   //rows
 	{
 		for(j = 1; j <= i; j++)   //columns
 		{
