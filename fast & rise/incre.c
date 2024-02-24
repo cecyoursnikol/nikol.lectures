@@ -13,7 +13,7 @@ int main()
 	++num;   //pre incre
 	
  	num--;   //decrement opr  -1  post decre 
- 	num--;
+ 		
  	--num;  //pre decre 
 	printf("%d",num);
 	return 0;
