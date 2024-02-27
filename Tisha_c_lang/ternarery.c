@@ -1,4 +1,3 @@
-
 //ternary opr
 
 #include<stdio.h>
