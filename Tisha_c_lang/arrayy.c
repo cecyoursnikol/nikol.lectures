@@ -7,7 +7,7 @@ int main()
 	//            0,  1,  2,  3,  4
 	int i;
 	
-	arr[2] = 0;
+	arr[2] = 700;
 	
 	for(i = 0;i<5;i++){
 		printf("%d\n",arr[i]);
