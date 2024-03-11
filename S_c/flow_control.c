@@ -12,7 +12,7 @@ int main()
 //		
 //	}
 
-	number:   //lable
+	number:   //lablel
 		{
 			printf("Hello I am label");
 			i++;
@@ -27,7 +27,7 @@ int main()
 		{
 			goto number;	
 		}
-			if(i == 9)
+			if(i == 7)
 		{
 			goto increment;	
 		}
