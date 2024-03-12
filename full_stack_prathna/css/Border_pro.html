@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .borderr {
+
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 255, 255);
+
+            border-color: #000000;
+            margin: 10px;
+        }
+
+        .box{
+            height: 150px;
+            width: 150px;
+
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+        }
+
+        .sides{
+            margin: 30px;
+
+            border-top-style: dotted;
+            border-left-style: dashed;
+            border-right-style: groove;
+            border-bottom-style: none;
+        }
+
+        .short{
+
+            height: 300px;
+            width: 200px;
+            border: 3px solid black;
+
+            /*border-radius: 10px;*/
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="borderr" style="border-style: solid;">
+
+    </div>
+
+    <div class="borderr" style="border-style: dotted;">
+
+    </div>
+    <div class="borderr" style="border-style: dashed;"></div>
+
+
+    <div class="borderr" style="border-style: double;"></div>
+
+    <div class="borderr" style="border-style: groove;"></div>
+
+    <div class="borderr" style="border-style: ridge;"></div>
+
+    <div class="borderr" style="border-style: inset;"></div>
+
+    <div class="borderr" style="border-style: outset;"></div>
+
+    <div class="borderr" style="border-style: none;"></div>
+    
+    <div class="borderr" style="border-style: hidden;"></div>
+
+
+    <div class="box "></div>
+
+    <div class="sides box"></div>
+
+    <div class="short"></div>
+</body>
+
+</html>
