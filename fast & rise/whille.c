@@ -1,12 +1,26 @@
 #include<stdio.h>
+struct person{
+		
+		int yash;
+		float manav;
+		char yashvi;
+	};
 
 int main()
 {
-	int i;
+	struct person s1,s2;
 	
-	while(i<=100){
-		
-		printf("HEllo Rohan\n",i);
-		i++;
-	}
+	
+	printf("First Member is Yash Give Them int value :");
+	scanf("%d",&s1.yash);
+	
+	printf("%d",s1.yash);
+	
+	
+	printf("\n\nFirst NEw Member is Yash Give Them int value :");
+	scanf("%d",&s1.yash);
+	
+	printf("%d",s1.yash);
+	return 0;
+
 }
