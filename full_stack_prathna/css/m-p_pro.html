@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin Padding</title>
+
+    <style>
+        .container {
+
+            height: 350px;
+            border: 2px solid black;
+            width: 250px;
+            margin: 20px;
+            border-radius: 30px;
+            box-shadow: 0 0 7px 0 rgb(136, 121, 121);
+
+        }
+
+        .container .img {
+            /* border: 2px solid red; */
+            height: 130px;
+            width: 250px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        img {
+            /*border: 2px solid red;*/
+            height: 150px;
+            width: 250px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .title{
+            color: #8b3a3a;
+            margin-top: 20px;
+            font-weight: 600;
+
+        }
+
+        .container .par , .title {
+            padding: 10px;
+        }
+        button{
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        button a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="image/mac.jpg" alt="">
+        </div>
+        <div class="title">
+            <span><h3>
+                Mackbook Pro</h3>
+            </span>
+        </div>
+        <div class="par">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, magnam!
+        </div>
+        
+        <button><a href="https://www.apple.com/in/shop/buy-mac?afid=p238%7CseeWCbmRH-dc_mtid_187079nc38483_pcrid_692619621322_pgrid_109263621773_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-mac--slid---product-">Go To</a></button>
+
+    </div>
+</body>
+
+</html>
