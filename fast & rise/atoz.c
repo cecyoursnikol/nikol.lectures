@@ -3,7 +3,7 @@
 int main(){
 	
 	char letter;
-	letter='a';
+	letter='a'; 
 	while(letter<='z'){
 		
 		printf("\n%c",letter);
