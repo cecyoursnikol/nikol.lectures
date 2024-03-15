@@ -1,28 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <style>
-
-        body{
+        body {
             margin: 0;
             padding: 0;
         }
-        nav{
+
+        nav {
             background-color: bisque;
             height: 80px;
+
+        }
+
+        .logo {
+            position: relative;
+            display: flex;
+            padding: 20px;
+            gap: 9px;
+        }
+
+        .logo img {
+            height: 40px;
+            position: relative;
+        }
+
+        .logo h2 {
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        .first {
+            list-style: none;
+            position: relative;
+            display: flex;
+            gap: 30px;
+            margin-left: 70px;
+            overflow: auto;
+
+        }
+
+        .first2 {
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        .uu {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            gap: 350px;
+        }
+
+        .second {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        li {
+            font-weight: 900;
+            font-size: 17px;
+        }
+
+        .content-product {
+            position: relative;
+            height: 500px;
+            background-color: rgb(230, 229, 229);
+            z-index: 1;
+        }
+
+
+        .ch:hover {
+            color: aliceblue;
+        }
+
+        .ch:hover .content-product {
+            visibility: visible;
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="favicon-vfl8lUR9B.ico" alt="">
+                <img src="favicon-vfl8lUR9B.ico" alt="logo">
+                <h2>Dropbox</h2>
+                <div class="uu">
+                    <ul class="first">
+                        <li class="first2 ch" id="remove">Products</li>
+                        <li class="first2">Solutions</li>
+                        <li class="first2">Eneterprise</li>
+                        <li class="first2">Pricing</li>
+                        <ul class="content-product">
+                            <li>HEy</li>
+                        </ul>
+                        
+                    </ul>
+                    <!-- <ul class="second">
+                        <li>Contact Sales</li>
+                        <li>Get app</li>
+                        <li>Sing Up</li>
+                        <li>Login</li>
+
+                        <div class="button">
+                            <button>Get Started</button>
+                        </div>
+
+                    </ul> -->
+
+
+                </div>
+
             </div>
+
+
         </nav>
+
     </header>
+
 </body>
+
 </html>
