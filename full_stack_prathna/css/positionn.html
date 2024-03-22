@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position Element</title>
+    <style>
+        .me{
+            /* position: relative; */
+            position: fixed;
+            margin-top: 200px;
+            margin-left: 200px;
+            /*top: 20px;*/
+            
+        }
+
+        .navbar{
+            background-color: rgb(120, 199, 83);
+            height: 60px;
+            width: 100%;
+            position: fixed;
+        }
+        .navbar .logo{
+            color: #fff;
+            padding: 15px;
+            position: relative;
+            left: 30px;
+            font-weight: 900;
+            font-size: 20px;
+        }
+        .navbar ul{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            position: absolute;
+            left: 1020px;
+            top: 2.5px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        a:hover{
+            color: rgb(67, 255, 139);
+        }
+
+        .our{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Artificial Intelligence
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Negative point</a></li>
+                <li><a href="">Know more</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="for">I am Element 1</div>
+    <div class="me">I am Element 2</div>
+    <div class="our">I am Element 3</div>
+</body>
+</html>
