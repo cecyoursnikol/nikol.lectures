@@ -1,1 +1,3 @@
-console.log("Hello world")  
+const star = require("./s02")
+
+console.log("Hello world",star)  
