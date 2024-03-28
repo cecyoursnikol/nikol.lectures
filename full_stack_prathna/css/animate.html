@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New animations</title>
+    <style>
+        .animate{
+
+            width: 200px;
+            height: 170px;
+            background: radial-gradient(circle, rgba(202,246,226,1) 0%, rgba(4,5,15,1) 100%);;
+            animation-name: website;
+            animation-duration: 5s; 
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes website {
+        from{background:radial-gradient(circle, rgba(202,246,226,1) 0%, rgba(4,5,15,1) 100%);}
+        to{background: radial-gradient(circle, rgba(4,5,15,1) 0%, rgba(202,246,226,1) 100%); }
+        }
+    </style>
+</head>
+<body>
+    <h2>Box we are animating</h2>
+    <div class="animate">
+
+    </div>
+</body>
+</html>
