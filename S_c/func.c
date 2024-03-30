@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-int func(){
+int func(int a){
 	
-	int a;
+
 	
 	printf("\nEnter the value in a :");
-	scanf("%d",&a);
+//	scanf("%d",&a);
 	
 	printf("Ur value is %d",a);
 	return 0;	
@@ -17,10 +17,7 @@ int main(){
 	
 	for(i = 0;i < 10; i++){
 		
-	func();	
+	func(20);	
 	}
-	
-	
-	
 	return 0;
 }
