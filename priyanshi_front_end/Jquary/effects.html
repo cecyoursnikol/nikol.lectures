@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Effects</title>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>We are going to hide u all</h1>
+
+        <h1 class="hide-me">No.1 </h1>
+        <h1 class="hide-me">No.2</h1>
+        <h1 class="hide-me">No.3</h1>
+
+        <button>Hide</button>
+        <button class="show">show</button>
+
+        <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $(".hide-me").hide();
+            });
+
+            $('.show').click(function(){
+                $(".hide-me").show();
+            })
+
+        });
+    </script>
+    </body>
+</html>
