@@ -7,7 +7,7 @@ int main(){
 	
 	int a , b;
 	
-	a = 100;
+	a = 10;
 	b = 10;
 //	equal to opr
 	printf("The equal to ans is %d",a==b);
