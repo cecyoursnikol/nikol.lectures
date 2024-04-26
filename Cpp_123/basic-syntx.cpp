@@ -7,7 +7,7 @@ int main(){
 	cout<<"enter ur value :";
 	cin>>num;
 	
-	cout<<"Ur ans is \n"<<num;
+	cout<<"Ur ans is "<<num;
 	
 	return 0;
 }
