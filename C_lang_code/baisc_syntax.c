@@ -6,7 +6,19 @@ int main(){
 	
 	//This is not read by compailer
 	
-	//printf("This is for comments");
+	
+	/*
+	sdfb
+	sdfb
+	sdfb
+	zdcb
+	
+	sdfbsdfb
+	
+	xdfhdb
+	
+	*/
+	printf("This is for comments");
 	
 	return 0;
 }
