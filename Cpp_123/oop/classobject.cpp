@@ -7,7 +7,7 @@ string mystring;
 };
 int main()
 {
-	fruit mango;
+	fruit mango;  //fruit == class mango is object
 	mango.mystring="aditya";
 	cout<<mango.mystring;
 }
