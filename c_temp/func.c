@@ -10,9 +10,11 @@ int aditya(int a){
 }
 
 
-main(){
+int main(){
 	
 	aditya(20);
-	aditya(40);
+	aditya(40); 
+
+	return 0;
 	
 }
