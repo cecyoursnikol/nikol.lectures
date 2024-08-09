@@ -1,0 +1,38 @@
+/* src/HomePage.css */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .home-container {
+    background-color: #e9ecef;
+  }
+  
+  .home-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 2rem;
+  }
+  
+  .home-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .home-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .home-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .home-footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+    border-top: none;
+  }
+  

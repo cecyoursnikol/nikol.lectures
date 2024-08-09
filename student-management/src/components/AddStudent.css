@@ -1,0 +1,45 @@
+/* src/AddStudent.css */
+body {
+    background-color: #f0f2f5;
+  }
+  
+  .add-student-container {
+    background-color: #e9ecef;
+  }
+  
+  .add-student-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 2rem;
+  }
+  
+  .add-student-card .card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .add-student-card .form-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .add-student-card .form-control {
+    border-radius: 10px;
+  }
+  
+  .add-student-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .add-student-card .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
