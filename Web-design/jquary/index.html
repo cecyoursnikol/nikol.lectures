@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <h2>This is HTML</h2>
+
+    <button>Hide</button>
+
+<button class="sh">show</button>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('h2').hide();
+            });
+
+            $(".sh").click(function(){
+                $('h2').show();
+            })
+
+        });
+    </script>
+</body>
+</html>
