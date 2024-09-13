@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fade-effect</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <style>
+
+        .box{
+
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+
+        .box1{
+
+            background-color: aqua;
+        }
+
+        .box2{
+            background-color: beige;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="box1 box"></div>
+
+
+    <div class="box2 box"></div>
+
+
+    <div class="box3 box"></div>
+
+
+    <button>check</button>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('button').click(function(){
+                $('.box1').fadeOut();
+
+                $('.box2').fadeOut('fast');
+            });
+            
+
+        });
+    </script>
+</body>
+</html>
