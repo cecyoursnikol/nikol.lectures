@@ -1,0 +1,24 @@
+logical and   && 
+logical or    ||
+logical not   !
+
+
+a   &&    b     ans
+
+1   &&    1      1
+1   &&    0      0
+0   &&    1	 0
+0   &&    0	 0
+
+
+
+a   ||    b     ans
+
+1   ||    1      1
+1   ||    0      1
+0   ||    1	 1
+0   ||    0	 0
+
+a     ans
+1       0
+0	1
