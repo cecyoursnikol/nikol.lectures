@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <style>
+        button{
+
+            padding: 10px;
+            width: 200px;
+            font-size: 23px;
+            font-family:Arial, Helvetica, sans-serif;
+            border-style: none;
+            font-weight: 600;
+            background: rgb(34,102,195);
+            background: linear-gradient(0deg, rgba(34,102,195,1) 0%, rgba(45,227,253,1) 100%);
+            color: #fff;
+        }
+
+        .panel{
+            height: 300px;
+            width: 100%;
+            background-color: rgb(231, 223, 248);
+            display: none;
+        }
+
+        .panel img{
+            height: 300px;
+            object-fit: fill;
+            width: auto;
+            align-items: center;
+            margin-left: 32%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="effect">
+        <center><button>Up/Down</button></center>
+
+        <div class="panel">
+            <img src="https://assets-eu-01.kc-usercontent.com/77bbf83a-1306-0152-fea5-3b5eaf937634/1e6fd406-258e-48f5-9a12-0f910c7aacba/GettyImages-1386184656%20%281%29.jpg" alt="">
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function(){
+
+            $('button').click(function(){
+
+                $('.panel').slideToggle("slow");
+
+            });
+
+        });
+    </script>
+</body>
+</html>
