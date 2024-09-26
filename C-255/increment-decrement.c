@@ -19,4 +19,4 @@ int main(){
 	printf("\nTHe num is %d",num);
 	
 	return 0;
-}
+}          
