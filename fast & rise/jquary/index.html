@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting With Jquary</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <h1>HEllo</h1>
+
+    <button>Hide</button>
+
+    <button id="show">Show</button>
+
+
+
+    <script>
+
+
+        $(document).ready(function(){
+
+            $('button').click(function(){
+
+                $('h1').hide();
+            })
+
+            $('#show').click(function(){
+                $('h1').show();
+            })
+        });
+    </script>
+</body>
+</html>
