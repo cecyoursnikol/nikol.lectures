@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure CSS Login Form with Slide Animations</title>
+<style>
+
+    /* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.login-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Error Message (Initially hidden) */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  display: none; /* Initially hidden */
+}
+
+/* Success Message (Initially hidden) */
+.success-message {
+  color: green;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  display: none; /* Initially hidden */
+}
+
+/* Shake effect for invalid inputs */
+.input-field:invalid {
+  animation: shake 0.4s ease;
+  border-color: red;
+}
+
+/* Slide-in and slide-out animations */
+@keyframes slideDown {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 100px; opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { max-height: 100px; opacity: 1; }
+  to { max-height: 0; opacity: 0; }
+}
+
+/* Display the error message when input is invalid */
+.input-field:invalid ~ .error-message {
+  display: block;
+  animation: slideDown 0.5s ease forwards;
+}
+
+/* Display the success message when input is valid */
+.input-field:valid ~ .success-message {
+  display: block;
+  animation: slideDown 0.5s ease forwards;
+}
+
+/* Shake animation for inputs */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-10px); }
+  40%, 80% { transform: translateX(10px); }
+}
+
+</style></head>
+<body>
+  <div class="login-form">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" class="input-field" required >
+      <input type="password" placeholder="Password" class="input-field" required minlength="5">
+      <button type="submit" class="login-button">Login</button>
+
+      <!-- Error message if the input is invalid -->
+      <div class="error-message">Username or password is incorrect!</div>
+
+      <!-- Success message on valid form -->
+      <div class="success-message">Welcome back!</div>
+    </form>
+  </div>
+</body>
+</html>
