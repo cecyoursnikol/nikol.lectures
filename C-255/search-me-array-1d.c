@@ -22,19 +22,14 @@ int main()
     {
         if(data == a[i])
         {
-//            f = 1;  // Set 'f' to 1 (true)
+            f = 1;  // Set 'f' to 1 (true)
             printf("%d found at %d index...\n", data, i);
         }
-        
-        else{
-        	printf("data not found..\n");
-		}
-		
     }
 
-//    if(f == 0)
-//    {
-//        printf("data not found..\n");
-//    }
+    if(f == 0)
+    {
+        printf("data not found..\n");
+    }
 }
 
