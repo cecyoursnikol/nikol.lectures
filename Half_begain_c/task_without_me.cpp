@@ -15,34 +15,62 @@ struct Account {
 Account accounts[MAX_ACCOUNTS]; // Array to store accounts
 int numAccounts = 0; // Number of accounts currently in the system
 
-// Function to generate a unique account number
-string generateAccountNumber() {
-    // Simple implementation: using a counter as part of the account number
-    return "ACCT-" + to_string(numAccounts + 1);
+void deposit(string accNum, double amount) {
+    for (int i = 0; i < numAccounts; ++i) {
+        if (accounts[i].accountNumber == accNum) {
+            accounts[i].balance += amount;
+            accounts[i].transactionHistory += "Deposit: $" + to_string(amount) + "\n";
+            return;
+        }
+    }
+    cout << "Account not found." << endl;
 }
 
-void createAccount(double initialBalance) {
-    if (numAccounts < MAX_ACCOUNTS) {
-        string accNum = generateAccountNumber();
-        accounts[numAccounts] = { accNum, initialBalance, "" };
-        numAccounts++;
-        cout << "Account created successfully. Account Number: " << accNum << endl;
-    } else {
-        cout << "Cannot create more accounts. Maximum limit reached." << endl;
+bool withdraw(string accNum, double amount) {
+    for (int i = 0; i < numAccounts; ++i) {
+        if (accounts[i].accountNumber == accNum) {
+            if (accounts[i].balance >= amount) {
+                accounts[i].balance -= amount;
+                accounts[i].transactionHistory += "Withdrawal: $" + to_string(amount) + "\n";
+                return true;
+            } else {
+                cout << "Insufficient funds." << endl;
+                return false;
+            }
+        }
     }
+    cout << "Account not found." << endl;
+    return false;
+}
+
+void displayBalance(string accNum) {
+    for (int i = 0; i < numAccounts; ++i) {
+        if (accounts[i].accountNumber == accNum) {
+            cout << "Account Number: " << accNum << endl;
+            cout << "Current Balance: $" << accounts[i].balance << endl;
+            return;
+        }
+    }
+    cout << "Account not found." << endl;
+}
+
+void displayTransactionHistory(string accNum) {
+    for (int i = 0; i < numAccounts; ++i) {
+        if (accounts[i].accountNumber == accNum) {
+            cout << "Transaction History for Account " << accNum << ":" << endl;
+            cout << accounts[i].transactionHistory;
+            return;
+        }
+    }
+    cout << "Account not found." << endl;
 }
 
 int main() {
-    char createAnother;
-    do {
-        double initialBalance;
-        cout << "Enter initial balance for your new account: ";
-        cin >> initialBalance;
-        createAccount(initialBalance);
-
-        cout << "Do you want to create another account? (y/n): ";
-        cin >> createAnother;
-    } while (createAnother == 'y' || createAnother == 'Y');
+    // Example usage
+    deposit("1234567890", 1000);
+    withdraw("1234567890", 200);
+    displayBalance("1234567890");
+    displayTransactionHistory("1234567890");
 
     return 0;
 }
