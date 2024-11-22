@@ -1,0 +1,6 @@
+Computer is an electronic device which is used to
+perform Specific Task. The term computer is derived from
+the Latin term ‘Computare’, it means calculate or
+programmable machine. Computer can’t do anything without
+a program. Normally computer takes an input from user ,
+process it & generate the output. 
