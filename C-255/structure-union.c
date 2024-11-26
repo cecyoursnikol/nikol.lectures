@@ -9,7 +9,7 @@ union Mystruct{
 
 int main(){
 
-	;	
+		
 	printf("enter the value in struct Member num :");	
 	scanf("%d",&s1.num);
 	
