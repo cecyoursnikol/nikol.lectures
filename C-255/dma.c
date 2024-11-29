@@ -63,8 +63,8 @@ int main(){
 		printf("The value of new [%d] is:",i);
 		printf("%d\n",p[i]);
 	}
-//	
-//	free(p);
+	
+	free(p);
 	
 	return 0;
 }
