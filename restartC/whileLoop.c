@@ -7,7 +7,7 @@ int main(){
 	
 //	starting the while
 
-while(i < num){
+while(i < num){    //condition
 	
 	printf("The value is %d\n",i);
 	i++;
