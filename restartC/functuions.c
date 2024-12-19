@@ -10,7 +10,7 @@ int ram(){
 
 //args nd para
 
-int data(int a){   //args
+int data(int a){   //parm
 
 printf("The number is %d",a);
 return 0;
