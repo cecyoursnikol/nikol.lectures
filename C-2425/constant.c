@@ -14,7 +14,7 @@ int main(){
 	
 //	printing the Constant 
 
- 	age = 78;
+// 	age = 78;
 	printf("\nThe age is %i",age);
 	
 	return 0;
