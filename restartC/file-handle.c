@@ -21,10 +21,7 @@ int main(){
 	fgets(str,50,p);
 	
 	
-	printf("%s",&str);
-	
-	
-	
+	printf("%s",str);
 	
 	fclose(p);
 	
