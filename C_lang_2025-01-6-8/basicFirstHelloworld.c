@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-void main(){
+int main(){
 	
 	
 	printf("Hello THis is My First Progam");
 	
-	
+	return 0;
 }
