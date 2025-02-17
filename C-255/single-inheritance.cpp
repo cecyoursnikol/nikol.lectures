@@ -7,7 +7,7 @@ using namespace std;
 //parent class
 class A{
 	
-	private:
+	protected:
 		
 	void print(){
 		
