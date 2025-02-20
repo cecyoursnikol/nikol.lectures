@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in html</title>
+
+
+    <style>
+
+        .box{
+
+            height: 200px;
+            width: 400px;
+            background-color: #e42828;
+
+            animation-name: change;
+            animation-duration: 1s;
+            animation-iteration-count: 3;
+            animation-delay: 3s;
+        }
+
+
+        @keyframes change {
+            from{background-color: #e42828; height: 200px;}
+            to{background-color: aqua; height: 400px;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
