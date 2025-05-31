@@ -1,6 +1,0 @@
-ACID  : Atomicity , Consistency , Isolation , Durability.
-
-1. Atomicity : Either all or NULL
-2. Consistency :   Before Tran. start and after the Tran. completed sum of money should be same 
-3. Isolation : make parallel Tran. to sequence tran.
-4. Durability : parmenent saves     
